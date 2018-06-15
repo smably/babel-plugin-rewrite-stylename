@@ -1,0 +1,41 @@
+{
+  "author": {
+    "email": "sylvan@gmail.com",
+    "name": "Sylvan Mably"
+  },
+  "dependencies": {
+    "babel-plugin-syntax-jsx": "^6.18.0",
+    "babel-types": "^6.26.0"
+  },
+  "description": "Transforms styleName to className.",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-helper-plugin-test-runner": "^6.24.1",
+    "babel-plugin-transform-es2015-destructuring": "^6.23.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-es2015-parameters": "^6.24.1",
+    "babel-preset-es2015": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-canonical": "^9.3.2",
+    "semantic-release": "^15.5.0"
+  },
+  "engines": {
+    "node": ">4.0.0"
+  },
+  "keywords": [
+    "babel-plugin",
+    "css-modules"
+  ],
+  "license": "BSD-3-Clause",
+  "main": "dist/index.js",
+  "name": "babel-plugin-rewrite-stylename",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smably/babel-plugin-rewrite-stylename/"
+  },
+  "scripts": {
+    "build": "rm -rf ./dist && NODE_ENV=production babel ./src --out-dir ./dist --source-maps --copy-files",
+    "lint": "eslint ./src"
+  },
+  "version": "0.0.0"
+}
