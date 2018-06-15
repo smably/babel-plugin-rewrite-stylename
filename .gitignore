@@ -1,0 +1,13 @@
+coverage
+dist
+node_modules
+*.log
+.*
+!.babelrc
+!.editorconfig
+!.eslintrc
+!.gitignore
+!.npmignore
+!.README
+!.travis.yml
+/package-lock.json
